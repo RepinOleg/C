@@ -2,7 +2,7 @@
 
 * command cat /etc/issue.
 
-    ![quest1](/Images/Quest1.png)
+    ![quest1](https://github.com/RepinOleg/Educational-projects/blob/develop/Linux_part1/Images/Quest1.png)
 
 ## Part 2. Creating a user
 
