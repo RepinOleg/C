@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>creditCalc</class>
+ <widget class="QDialog" name="creditCalc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>403</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(105, 105, 105);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>68</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ставка, %</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="bid_value">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>164</y>
+     <width>141</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(154, 153, 150);</string>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>36</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Срок</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="term">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>167</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(154, 153, 150);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1 месяц</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3 месяца</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6 месяцев</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9 месяцев</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1 год</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1,5 года</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2 года</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3 года</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4 года</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30 лет</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>50 лет</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="calculate">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>351</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(154, 153, 150);</string>
+   </property>
+   <property name="text">
+    <string>Рассчитать</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>340</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Результаты расчета:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>390</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ежемесячный платеж</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="monthly_payment">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>400</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Переплата по кредиту</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="overpayment">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>450</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>490</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Общая выплата</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="total_amount">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>500</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_Annuin">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>112</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>аннуитетный</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_diff">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>230</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>дифференцированный</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сумма кредита</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sum_value">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>65</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(154, 153, 150);</string>
+   </property>
+   <property name="text">
+    <string>100000</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
