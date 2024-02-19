@@ -37,4 +37,4 @@ I'm 27-year-old developer based in Moscow, and I'm passionate about crafting dig
 
 ## 📫 Contact
 
- For a quick response, DM me on [Instagram](https://www.instagram.com/mirayatech/) or [LinkedIn](https://www.linkedin.com/in/mirayaabrodi/). 
+ For a quick response, DM me on [Telegram](https://www.instagram.com/r_oleg9).
