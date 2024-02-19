@@ -18,6 +18,7 @@ I'm 27-year-old developer based in Moscow, and I'm passionate about crafting dig
 **Data bases:** `SQL` `PostgreSQL`
 
 </div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/sqldeveloper/sqldeveloper-plain.svg" title="SQL" alt="SQL" width="40" height="40"/>&nbsp;
     <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="40" height="40"/>&nbsp;
 </div>
 
