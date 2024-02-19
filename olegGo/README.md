@@ -40,3 +40,13 @@ I'm 27-year-old developer based in Moscow, and I'm passionate about crafting dig
 <div>
     <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="40" height="40"/>&nbsp;
  <div>
+
+ ## ✨ Fun Facts 
+
+- I like to play chess.
+- I dream of visiting Italy.
+- I love using Linux.
+
+## 📫 Contact
+
+ For a quick response, DM me on [Instagram](https://www.instagram.com/mirayatech/) or [LinkedIn](https://www.linkedin.com/in/mirayaabrodi/). 
