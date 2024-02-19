@@ -37,4 +37,4 @@ I'm 27-year-old developer based in Moscow, and I'm passionate about crafting dig
 
 ## 📫 Contact
 
- For a quick response, DM me on [Telegram](https://www.telegram.com/r_oleg9).
+ For a quick response, DM me on [Telegram](https://t.me/r_oleg9).
