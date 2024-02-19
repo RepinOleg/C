@@ -1,4 +1,4 @@
-### Hey, I'm Oleg
+### Hey, I'm Oleg 👋🏽
 
 I'm 27-year-old developer based in Moscow, and I'm passionate about crafting digital experiences.
 
